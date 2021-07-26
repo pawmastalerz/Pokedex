@@ -1,0 +1,40 @@
+.Pokedex {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Pokedex-info {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Pokedex-info-title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.Pokedex-info-total {
+  font-size: 20px;
+}
+
+.Pokedex-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.Pokedex-tie {
+  color: yellow;
+}
+
+.Pokedex-win {
+  color: green;
+}
+
+.Pokedex-lose {
+  color: red;
+}
